@@ -1,4 +1,14 @@
-# 網頁切版直播班 Vite 範例
+# 2023網頁切版直播班
+
+[設計稿](https://xd.adobe.com/view/5b20cbc4-5c64-4b67-814e-633b078a8cd4-0e73/grid)
+
+##使用
+- bootstrap5
+- vite
+
+vite範本由六角學院提供
+
+---
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
@@ -32,7 +42,6 @@ vite 專案執行開發模式 `npm run dev` 後即會自動監聽，不需要使
 
 
 ## 部署 gh-pages 流程說明
-### Windows 版本
 1. 在 GitHub 建立一個新的 Repository
 
 2. 部署前請務必先將原始碼上傳到 GitHub Repository 也就是初始化 GitHub，因此通常第一步驟會在專案終端機輸入以下指令
