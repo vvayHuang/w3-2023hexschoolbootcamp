@@ -1,0 +1,41 @@
+.hero{
+    height: 787px;
+    background: center / cover url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true);
+    @include tablet() {
+        background: center / cover url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
+    }
+    @include mobile(){
+        height: 396px;
+    }
+}
+.classical-glasses{
+    img{
+        width: 416px;
+    }
+}
+
+.social{
+    img{
+        width: 48px;
+        @media (max-width:375px) {
+            width: 24px;
+        }
+        @media (max-width:768px) {
+            width: 40px;
+        }
+    }
+}
+
+.product{
+    .banner{
+        &-img{
+            @include tablet(){
+                width: 384px;
+            }
+        }
+    }
+}
+
+.design{
+    background: center / cover no-repeat url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);
+}

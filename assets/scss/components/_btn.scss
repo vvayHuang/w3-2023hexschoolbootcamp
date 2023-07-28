@@ -1,0 +1,16 @@
+.btn-primary {
+    color: $white;
+    background-color: $red;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 6px 12px;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all .5s ease;
+    border: 1px solid $red;
+    &:hover {
+        background: $secondary;
+        color: $primary;
+        border: 1px solid $red;
+    }
+}

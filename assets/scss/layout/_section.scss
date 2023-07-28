@@ -1,0 +1,13 @@
+.specialty,
+.classical-glasses,
+.design,
+.customer-recommend,
+.contact,.optical,.SUNGLASSES,.blog {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    @include mobile() {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

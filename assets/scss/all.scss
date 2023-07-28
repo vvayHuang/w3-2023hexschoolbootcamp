@@ -1,0 +1,29 @@
+//rest
+@import "./base/reset";
+@import "./base/base";
+//font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
+//icon
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+//grid
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+//color
+@import "./base/color";
+//utilities
+@import "./helpers/utilities";
+@import "./layout/header";
+@import "./layout/section";
+@import "./helpers/img";
+//bootstrap components
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/transitions";
+@import "../../node_modules/bootstrap/scss/nav";
+//custom components
+@import "./components/btn";
+@import "./components/card";
+@import "./components/input";
+@import "./components/navbar";
+@import "./components/dropdown";
+@import "./components/breadcrumb";
+@import "./components/pagination";
+@import "./components/tag";

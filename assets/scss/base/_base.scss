@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Noto Sans TC', system-ui, -apple-system, "Segoe UI", "Helvetica Neue", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+button {
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.2;
+}
+
+p,
+span,
+a {
+    line-height: 1.5;
+    vertical-align: middle;
+}
+//breakpoints
+@mixin desktop {
+    @media(max-width: 992px) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media(max-width: 768px) {
+        @content
+    }
+}
+
+@mixin mobile {
+    @media(max-width: 375px) {
+        @content
+    }
+}
