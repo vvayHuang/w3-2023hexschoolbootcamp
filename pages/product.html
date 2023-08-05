@@ -10,25 +10,27 @@
 
 <body>
   <%- include('./layout/header'); -%>
-    <div class="container product">
+    <div class="product">
       <!-- tab -->
-      <ul class="nav nav-tabs row row-cols-3 product-navbar gx-0" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="product-navbar-link active" id="OPTICAL-tab" data-bs-toggle="tab"
-            data-bs-target="#OPTICAL-tab-pane" type="button" role="tab" aria-controls="OPTICAL-tab-pane"
-            aria-selected="true">OPTICAL</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="product-navbar-link" id="SUNGLASSES-tab" data-bs-toggle="tab"
-            data-bs-target="#SUNGLASSES-tab-pane" type="button" role="tab" aria-controls="SUNGLASSES-tab-pane"
-            aria-selected="true">SUNGLASSES</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="product-navbar-link" id="FUNCTIONAL-tab" data-bs-toggle="tab"
-            data-bs-target="#FUNCTIONAL-tab-pane" type="button" role="tab" aria-controls="FUNCTIONAL-tab-pane"
-            aria-selected="true" disabled>FUNCTIONAL</button>
-        </li>
-      </ul>
+      <div class="container">
+        <ul class="nav nav-tabs row row-cols-3 product-navbar gx-0" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="product-navbar-link active" id="OPTICAL-tab" data-bs-toggle="tab"
+              data-bs-target="#OPTICAL-tab-pane" type="button" role="tab" aria-controls="OPTICAL-tab-pane"
+              aria-selected="true">OPTICAL</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="product-navbar-link" id="SUNGLASSES-tab" data-bs-toggle="tab"
+              data-bs-target="#SUNGLASSES-tab-pane" type="button" role="tab" aria-controls="SUNGLASSES-tab-pane"
+              aria-selected="true">SUNGLASSES</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="product-navbar-link" id="FUNCTIONAL-tab" data-bs-toggle="tab"
+              data-bs-target="#FUNCTIONAL-tab-pane" type="button" role="tab" aria-controls="FUNCTIONAL-tab-pane"
+              aria-selected="true" disabled>FUNCTIONAL</button>
+          </li>
+        </ul>
+      </div>
       <!-- content -->
       <div class="tab-content" id="myTabContent">
         <!-- Celluloid Combi賽璐珞鈦金屬混合鏡框 -->
@@ -178,7 +180,7 @@
           tabindex="0">
           <!-- banner -->
           <div class="d-flex">
-            <div>
+            <div class="banner-img">
               <img class="d-lg-block d-none w-100"
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-3.png?raw=true"
                 alt="product-header-3">
@@ -186,7 +188,7 @@
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-3.png?raw=true"
                 alt="product-header-sm-3">
             </div>
-            <div>
+            <div class="banner-img">
               <img class="d-lg-block d-none w-100"
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-4.png?raw=true"
                 alt="product-header-4">

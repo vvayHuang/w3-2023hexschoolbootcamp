@@ -1,24 +1,30 @@
-header{
-    .navbar{
-        &-brand{
+header {
+    .navbar {
+        &-brand {
             padding-top: 12px;
             padding-bottom: 12px;
             display: block;
         }
     }
-    .nav{
-        &-link{
+
+    .nav {
+        &-link {
             color: $white;
             font-size: 20px;
             line-height: 30px;
             padding: 8px;
             display: block;
             text-align: center;
-            @include mobile{
+
+            @include mobile {
                 font-size: 16px;
                 line-height: 24px;
                 padding-top: 12px;
                 padding-bottom: 12px;
+            }
+
+            &:hover {
+                color: $white;
             }
         }
     }

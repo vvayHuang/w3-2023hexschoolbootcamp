@@ -7,18 +7,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 //grid
 @import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
-//color
-@import "./base/color";
+//variables
+@import "./helpers/variables";
 //utilities
+@import "./helpers/breakpoint";
 @import "./helpers/utilities";
 @import "./layout/header";
 @import "./layout/section";
-@import "./helpers/img";
 //bootstrap components
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/transitions";
 @import "../../node_modules/bootstrap/scss/nav";
 //custom components
+@import "./components/img";
 @import "./components/btn";
 @import "./components/card";
 @import "./components/input";
