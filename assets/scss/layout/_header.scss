@@ -27,11 +27,12 @@ header {
                 right: 0;
                 width: 100%;
                 flex-wrap: wrap;
-                display: none;
                 transition: all 0.8s;
+                max-height: 0px;
+                overflow: hidden;
             }
             &.active{
-                display: flex;
+                max-height: 200px;
             }
         }
     }
