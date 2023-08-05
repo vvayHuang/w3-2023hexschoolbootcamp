@@ -1,29 +1,60 @@
 header {
     .navbar {
+        position: relative;
         &-brand {
             padding-top: 12px;
             padding-bottom: 12px;
-            display: block;
+            display: inline-block;
             &:hover{
                 opacity: 1;
             }
         }
-    }
+        .burger-menu{
+            background-color: $red;
+            &-icon{
+                color: $white;
+            }
+            &-dropdown{
 
+            }
+        }
+        &-nav{
+            display: flex;
+            justify-content: space-between;
+            @include mobile(){
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 100%;
+                flex-wrap: wrap;
+                display: none;
+                transition: all 0.8s;
+            }
+            &.active{
+                display: flex;
+            }
+        }
+    }
     .nav {
+        &-item{
+            @include mobile(){
+                width: 50%;
+                border: 1px solid $white;
+            }
+        }
         &-link {
             color: $white;
             font-size: 20px;
             line-height: 30px;
-            padding: 8px;
+            padding: 8px 8px 8px 64px;
             display: block;
             text-align: center;
+            background-color: $red;
 
-            @include mobile {
+            @include mobile() {
                 font-size: 16px;
                 line-height: 24px;
-                padding-top: 12px;
-                padding-bottom: 12px;
+                padding: 12px;
             }
 
             &:hover {
@@ -31,4 +62,5 @@ header {
             }
         }
     }
+
 }
