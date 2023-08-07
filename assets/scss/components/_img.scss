@@ -17,11 +17,11 @@
 .social{
     img{
         width: 48px;
-        @media (max-width:375px) {
-            width: 24px;
-        }
-        @media (max-width:768px) {
+        @include tablet(){
             width: 40px;
+        }
+        @include mobile(){
+            width: 24px;
         }
     }
 }

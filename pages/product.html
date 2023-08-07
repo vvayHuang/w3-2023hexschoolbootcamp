@@ -10,22 +10,22 @@
 
 <body>
   <%- include('./layout/header'); -%>
-    <div class="product">
+    <main class="product">
       <!-- tab -->
       <div class="container">
-        <ul class="nav nav-tabs row row-cols-3 product-navbar gx-0" id="myTab" role="tablist">
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="product-navbar-link active" id="OPTICAL-tab" data-bs-toggle="tab"
+            <button class="nav-link active" id="OPTICAL-tab" data-bs-toggle="tab"
               data-bs-target="#OPTICAL-tab-pane" type="button" role="tab" aria-controls="OPTICAL-tab-pane"
               aria-selected="true">OPTICAL</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="product-navbar-link" id="SUNGLASSES-tab" data-bs-toggle="tab"
+            <button class="nav-link" id="SUNGLASSES-tab" data-bs-toggle="tab"
               data-bs-target="#SUNGLASSES-tab-pane" type="button" role="tab" aria-controls="SUNGLASSES-tab-pane"
               aria-selected="true">SUNGLASSES</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="product-navbar-link" id="FUNCTIONAL-tab" data-bs-toggle="tab"
+            <button class="nav-link" id="FUNCTIONAL-tab" data-bs-toggle="tab"
               data-bs-target="#FUNCTIONAL-tab-pane" type="button" role="tab" aria-controls="FUNCTIONAL-tab-pane"
               aria-selected="true" disabled>FUNCTIONAL</button>
           </li>
@@ -37,7 +37,7 @@
         <div class="tab-pane fade show active" id="OPTICAL-tab-pane" role="tabpanel" aria-labelledby="OPTICAL-tab"
           tabindex="0">
           <!-- banner -->
-          <div class="d-flex banner">
+          <div class="d-flex justify-content-center">
             <div class="banner-img">
               <img class="d-lg-block d-none w-100"
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-1.png?raw=true"
@@ -200,7 +200,7 @@
           <div class="container SUNGLASSES">
             <h2 class="h2 text-center font-medium">2020 NEW COLLECTION</h2>
             <h3 class="h3 text-center mb-32px">賽璐珞鈦金屬混合鏡框</h3>
-            <div class="row row-cols-lg-4 row-cols-md-2 gy-5">
+            <div class="row row-cols-lg-3 row-cols-md-2 gy-5">
               <div class="col">
                 <div class="card">
                   <div class="card-img">
@@ -315,7 +315,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
     <%- include('./layout/footer'); -%>
     <%- include('./layout/jquery'); -%>
 
