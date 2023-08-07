@@ -240,3 +240,7 @@ $font-weight: (
 .h-100 {
     height: 100%;
 }
+// border
+.border-left-red-8px{
+    border-left: 8px solid $red-dark;
+}

@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%- include('./layout/head'); -%>
     <title>常見問題 - 眼鏡官網</title>
 </head>
 
@@ -12,7 +10,7 @@
     <%- include('./layout/header'); -%>
 
         <main>
-            <section class="container store mt-96px mb-80px">
+            <section class="container store">
                 <h2 class="h2 font-bold mb-32px border-left-red-8px ps-3">常見問題</h2>
                 <h3 class="h3 font-bold mb-3">我想詢問配鏡問題</h3>
                 <ul class="row">
@@ -41,7 +39,6 @@
         </main>
 
         <%- include('./layout/footer'); -%>
-        <%- include('./layout/jquery'); -%>
 
             <script type="module" src="../main.js"></script>
 </body>
