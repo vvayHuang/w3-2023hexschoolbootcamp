@@ -1,8 +1,7 @@
 //variables
 @import "./helpers/variables";
-//utilities
+//breakpoint
 @import "./helpers/breakpoint";
-@import "./helpers/utilities";
 //rest
 @import "./base/reset";
 @import "./base/base";
@@ -12,6 +11,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 //grid
 @import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+// utilities
+@import "./helpers/utilities";
 //bootstrap components
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/transitions";
