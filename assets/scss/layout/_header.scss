@@ -1,5 +1,4 @@
-header {
-    
+header{
     .navbar {
         position: relative;
         &-brand {
@@ -8,16 +7,6 @@ header {
             display: inline-block;
             &:hover{
                 opacity: 1;
-            }
-        }
-        .burger-menu{
-            background-color: $red;
-            display: none;
-            &-icon{
-                color: $white;
-            }
-            @include mobile(){
-                display: block;
             }
         }
         &-nav{
@@ -49,11 +38,12 @@ header {
             color: $white;
             font-size: 20px;
             line-height: 30px;
-            padding: 8px 8px 8px 64px;
+            padding-right: 32px;
+            padding-left: 32px;
             display: block;
             text-align: center;
             background-color: $red;
-
+    
             @include tablet() {
                 font-size: 20px;
                 line-height: 30px;
@@ -64,10 +54,20 @@ header {
                 line-height: 24px;
                 padding: 12px;
             }
-
+    
             &:hover {
                 color: $white;
             }
+        }
+    }
+    .burger-menu{
+        background-color: $red;
+        display: none;
+        &-icon{
+            color: $white;
+        }
+        @include mobile(){
+            display: block;
         }
     }
 }

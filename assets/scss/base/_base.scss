@@ -43,3 +43,13 @@ a {
     line-height: 1.5;
     vertical-align: middle;
 }
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    @include mobile() {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

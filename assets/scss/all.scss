@@ -1,3 +1,8 @@
+//variables
+@import "./helpers/variables";
+//utilities
+@import "./helpers/breakpoint";
+@import "./helpers/utilities";
 //rest
 @import "./base/reset";
 @import "./base/base";
@@ -7,18 +12,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 //grid
 @import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
-//variables
-@import "./helpers/variables";
-//utilities
-@import "./helpers/breakpoint";
-@import "./helpers/utilities";
-@import "./layout/header";
-@import "./layout/section";
 //bootstrap components
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/transitions";
 @import "../../node_modules/bootstrap/scss/nav";
-//custom components
+//custom
+@import "./layout/header";
 @import "./components/img";
 @import "./components/btn";
 @import "./components/card";
@@ -28,3 +27,4 @@
 @import "./components/breadcrumb";
 @import "./components/pagination";
 @import "./components/tag";
+@import "./components/color-box";

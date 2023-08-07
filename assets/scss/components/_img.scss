@@ -25,13 +25,10 @@
         }
     }
 }
-
-.product{
-    .banner{
-        &-img{
-            @include tablet(){
-                width: 384px;
-            }
+.banner{
+    &-img{
+        @include tablet(){
+            width: 384px;
         }
     }
 }
