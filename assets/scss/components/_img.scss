@@ -8,12 +8,6 @@
         height: 396px;
     }
 }
-.classical-glasses{
-    img{
-        width: 416px;
-    }
-}
-
 .social{
     img{
         width: 48px;
@@ -22,13 +16,6 @@
         }
         @include mobile(){
             width: 24px;
-        }
-    }
-}
-.banner{
-    &-img{
-        @include tablet(){
-            width: 384px;
         }
     }
 }
