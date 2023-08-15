@@ -6,6 +6,10 @@
         border: 1px solid #555555;
         background-color: transparent;
         border-radius: 0px;
+        &.active{
+            background-color: #555555;
+            color: $white;
+        }
         &:hover{
             background-color: #555555;
             color: $white;
